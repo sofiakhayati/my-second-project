@@ -1,0 +1,210 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.backgd
+{
+    background-image: url(https://c1.wallpaperflare.com/preview/893/1020/960/contact-us-contact-email-phone-thumbnail.jpg);
+
+    background-repeat: no-repeat;
+  background-position: right;
+  background-size: 670px 1700px;
+  height: 1700px;
+
+}
+#buttonprincipale
+{
+  height: 50px;
+  border-radius: 15%;
+  background-color: grey;
+  margin-left: 335px;
+  margin-top: 5px;
+  transition: 0.2s;
+}
+#buttonprincipale:hover
+{
+  background-color: rgb(33, 33, 131);
+}
+#buttonprincipale a
+{
+color: white;
+font-size: medium;
+margin: 3px;
+}
+body form div >img
+{
+    margin-left: 250px;
+    border-radius: 50%; 
+    transition: 0.2s;
+    transform: rotate(-30deg);
+}
+
+body form div >img:hover
+{
+transform: scaleX(3);
+}
+fieldset
+{
+    width: max-content;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-right: 50px;
+    border-radius: 8%;
+    background-color: rgb(218, 143, 119, 70%);
+    
+}
+legend
+{
+    font-family: fantasy;
+    font-weight: normal;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(3, 35, 61);
+    
+}
+
+label, input
+{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+label
+{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: x-large;
+   color: white;
+   font-weight: bold;
+}
+input
+{
+    width: 390px;
+    height: 38px;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 6px;
+    
+}
+textarea
+{
+    width: 390px;
+    height: 150px; 
+    margin-bottom: 80px;  
+    font-family: cursive;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.button
+{
+    display: flex;  
+}
+.button>button
+{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+button a
+{
+font-family: cursive;
+font-size: x-large;
+font-weight: bold;
+text-decoration: none;
+padding: 40px;
+}
+.button1
+{
+background-color: darkslategray; 
+border-radius: 20%;
+transition: 0.2s;
+}
+.button2
+{
+    border-radius: 20%;
+    background-color: rgb(112, 35, 35);
+    transition: 0.2s;
+}
+.button1:hover
+{
+background-color: rgb(13, 182, 182, 50%); 
+border-radius: 20%;
+}
+.button2:hover
+{
+    border-radius: 20%;
+    background-color: rgb(207, 43, 43, 50%);
+}
+
+
+footer {
+    display: flex;  
+    background-color: rgb(65, 67, 70, 40%);
+      height: 400px;
+      cursor: pointer; 
+    }
+  h1 
+  {
+  text-align: justify;
+  color: mediumblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 1600;
+  font-style: oblique;
+  font-size: 200%;
+  letter-spacing: .2em;
+  word-spacing: .5em;
+  line-height: 3em;
+  }
+  h2
+  {
+      color:mediumblue;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 130%;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: .17em;
+    line-height: 3.1em;
+  }
+    .footer1 {
+     display: inline; 
+      margin-left:60px;
+      margin-top: 40px;
+    }
+    .footer2 {
+      display: inline;
+      margin-left: 250px;
+    }
+    .footer3 {
+      display: inline;
+      margin-top: 80px;
+    }
+    
+    .footer1 img,
+    .footer2 a img,
+    .footer3 img 
+    {
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+    
+    .footer1 img:hover {
+      transform: rotate(360deg);
+    }
+    
+    .footer2 a img:hover {
+      transform: rotate(360deg);
+    }
+    .footer3 img:hover {
+      transform: rotate(360deg);
+    }
+
+
+
+
+
+

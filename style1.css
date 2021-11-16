@@ -1,0 +1,270 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+article
+{
+  background-image: linear-gradient(to bottom, white, rgb(6, 13, 36, 0.2),gray  );
+  height: 1500px;
+  
+}
+.lang, .hob
+{
+margin-top: -100px;
+margin-left: 50px;
+margin-bottom: 200px;
+overflow: visible;
+position: relative;
+
+}
+
+h5
+{
+  border: white;
+  border-radius: 15%;
+  border-style: double;
+  margin-left: 220px;
+  height: 80px;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bold;
+font-style: oblique;
+font-size: xx-large;
+background-color: gray;
+color: white;
+  
+}
+h6{
+  border: white;
+  border-radius: 20%;
+  border-style: solid;
+  margin-top: 20px;
+margin-bottom: 50px;
+height: 45px;
+width: 200px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-style: normal;
+font-size: x-large;
+background-color: rgb(233, 173, 151);
+}
+.hlang, .hhob
+{
+  margin-right: 40px;
+}
+.parag1
+{
+border: white;
+border-radius: 20%;
+border-style: solid;
+margin-left: 40px;
+margin-top: -350px;
+height: 540px;
+width: 500px;
+text-align: center;
+padding-top: 300px;
+padding-bottom: 30px;
+padding-left: 20px;
+padding-right: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style: italic;
+font-size: xx-large;
+background-image:url(https://scontent.ftun2-1.fna.fbcdn.net/v/t1.6435-9/189554277_3766158750161151_1207136986089278758_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=P6vsHUSF9vUAX_NDELq&_nc_ht=scontent.ftun2-1.fna&oh=4e7309ac5a1cd21b7df12877d592dfe4&oe=61B92625);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: white;
+}
+.characters, .softwares, .web
+{
+  margin-left: 50px;
+  margin-right: 10px;
+  border: white;
+  border-style: solid;
+  background-color: rgb(233, 173, 151);
+  border-radius: 25%;
+  padding:80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: bolder;
+
+} 
+.characters
+{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueRcpVVVvcdnmsRyxhDhMCtnwMSAbCl2MCQ&usqp=CAU);
+background-repeat: no-repeat;
+background-size: 500px 450px;
+
+}
+.softwares
+{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUIm3yevcLp4PRrBh2ZSCc5Zctt05YfDSnw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 500px 450px;
+  color: white;
+}
+.web
+{
+  background-image: url(https://img.freepik.com/free-photo/open-laptop-with-coding-icon-logo-screen-3d_327483-1068.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 450px;
+  color: white;
+  
+}
+h4
+{
+  font-family: cursive;
+  font-weight: lighter;
+font-style: normal;
+font-size: xx-large;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 50px;
+}
+li
+{
+  list-style: none;
+  text-align: center;
+}
+#opinion
+{
+  font-family: cursive;
+  font-size: x-large;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 100px;
+  text-align: center;
+}
+.continued
+{
+  font-family: cursive;
+  font-size: x-large;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 900px;
+    
+}
+#button
+{
+  margin-left: 30px;
+  background-color: rgb(20, 31, 65);
+  height: 50px;
+  width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+border-radius: 25%;
+}
+#button:hover
+{
+  background-color: white;
+}
+#button a
+{
+  font-family: cursive;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+}
+#button a
+{
+  color:black;
+}
+
+.banner
+{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbhfrAvKjFnEshbd-KkHK3naJ_dEPEAhxGFMkim9NArJKOyG2emsfbsoaU0-PnryH2wo0&usqp=CAU);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 220vh 80vh;
+  overflow: hidden;
+  position: relative;
+
+  
+}
+.banner .waves
+{
+  position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+color: rgb(233, 105, 105);
+}
+
+
+
+footer {
+  display: flex;  
+  background-color: rgb(65, 67, 70, 40%);
+    height: 400px;
+    cursor: pointer; 
+  }
+h1 
+{
+text-align: justify;
+color: mediumblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 1600;
+font-style: oblique;
+font-size: 200%;
+letter-spacing: .2em;
+word-spacing: .5em;
+line-height: 3em;
+}
+h2
+{
+    color:mediumblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .17em;
+  line-height: 3.1em;
+}
+  .footer1 {
+   display: inline; 
+    margin-left:60px;
+    margin-top: 40px;
+  }
+  .footer2 {
+    display: inline;
+    margin-left: 250px;
+  }
+  .footer3 {
+    display: inline;
+    margin-top: 80px;
+  }
+  
+  .footer1 img,
+  .footer2 a img,
+  .footer3 img 
+  {
+    transition: 0.3s;
+    border-radius: 50%;
+  }
+  
+  .footer1 img:hover {
+    transform: rotate(360deg);
+  }
+  
+  .footer2 a img:hover {
+    transform: rotate(360deg);
+  }
+  .footer3 img:hover {
+    transform: rotate(360deg);
+  }
+
